@@ -1,0 +1,49 @@
+body {
+    font-family: "Press Start 2P", system-ui;
+    padding: 20px 30px 50px 70px;
+    background-image: url(img/blackjackpng.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    font-size: larger;
+}
+
+h3 {
+    font-family: "Honk", system-ui;
+    font-size: 45px;
+}
+
+p {
+    font-size:larger;
+    color: #000000;
+    background-color: #90a2b9;
+    width: max-content;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    background-color: #e3ddb8;
+    border-radius: 4px;
+    padding: 10px;
+    width: min-content;
+}
+
+button {
+    font-family: "Honk", system-ui;
+    font-size: larger;
+    width: auto;
+    min-width: 120px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1A73E8;
+}
